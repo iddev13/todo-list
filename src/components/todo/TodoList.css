@@ -1,0 +1,27 @@
+.todoList {
+	list-style: none;
+}
+
+.todoList li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	border: 1px solid #ccc;
+	margin-bottom: 0.5rem;
+	border-radius: 5px;
+}
+
+.todoList input {
+	margin-right: 1rem;
+}
+
+.rm {
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	background: red;
+	border-radius: 50%;
+	color: #fff;
+	border: none;
+}
